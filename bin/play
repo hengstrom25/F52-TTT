@@ -1,0 +1,18 @@
+#!/usr/bin/env ruby
+
+require_relative '../config/environment'
+
+puts "Welcome to this 2 player game of Tic Tac Toe!"
+puts "To play, please press 1 and then enter"
+
+input = gets.strip
+
+if input == '1'
+	game = Game.new
+	game.play
+else
+	puts "I'm sorry, I don't understand."
+	puts "To play, please press 1 and then enter"
+end
+
+
