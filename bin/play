@@ -11,8 +11,7 @@ if input == '1'
 	game = Game.new
 	game.play
 else
-	puts "I'm sorry, I don't understand."
-	puts "To play, please press 1 and then enter"
+	puts "I'm sorry, I didn't understand. Please try again"
 end
 
 
